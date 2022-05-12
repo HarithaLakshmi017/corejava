@@ -1,0 +1,31 @@
+package com.chainsys.file;
+import java.io.File;
+import java.io.IOException;
+import java.io.PrintWriter;
+
+
+public class FileOperations {
+	public static void main(String[] args) {
+		try {
+		File file=new File("filename.txt");
+		if (file.createNewFile()) {
+			System.out.println("New file created:" +file.getName());
+		}
+			else {
+				System.out.println("File already exists");
+			}
+		
+
+		}
+	catch (IOException e) {
+	 System.out.println("Error Occured");
+	 e.printStackTrace();
+	}
+		
+		
+	}
+}
+	
+
+	
+

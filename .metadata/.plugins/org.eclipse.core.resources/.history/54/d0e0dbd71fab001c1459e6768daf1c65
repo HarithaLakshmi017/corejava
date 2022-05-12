@@ -1,0 +1,32 @@
+package com.chainsys.introdction;
+
+public class fifth {
+
+	public static void main(String[] args) {
+		printNumbersOneToTen();
+
+	}
+	public static void printNumbersOneToTen() {
+		int count =0;
+		for(count =0;count<=10;count++)
+		{
+			System.out.println(count + "");
+		}
+		
+		
+	}
+	public static void printTriangle() {
+		
+		int countA =0;
+		for(countA =1;countA<=10;countA++)
+		{
+			for(int countB  =1;countB<=countA;countB++)
+			{
+			System.out.print(countB + "");
+			
+		}
+			System.out.println();
+		}
+	}
+}
+

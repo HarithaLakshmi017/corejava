@@ -1,0 +1,19 @@
+package com.chainsys.introdction;
+
+public class second {
+	public static void main(String[] args) {
+		//task A
+		System.out.println("End...");
+		
+	}
+	public static void taskA()
+	{
+		int x=100;
+		int y=200;
+		int z=x+y;
+		
+		System.out.println("result="+z);
+		
+	}
+	
+}

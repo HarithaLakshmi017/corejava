@@ -1,0 +1,27 @@
+package Testsamplecode;
+
+import java.util.Scanner;
+
+ public class Umbrella {
+
+    public static void main(String[] args) {
+       temp();
+    }
+    public static void temp()
+    {
+            //static double degree=0;
+            Scanner s1=new Scanner(System.in);
+            System.out.println("Enter the Temperature");
+            double degree=s1.nextDouble();
+            s1.close();
+            //System.out.println(degree);
+    if(degree<32)
+    {
+            System.out.println("To Bring Heavy Jacket");
+    }
+    else if(degree>=32 && degree<=50)
+    {
+     System.out.println("No Jacket");
+    }
+    }
+ }

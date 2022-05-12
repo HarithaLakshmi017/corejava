@@ -1,0 +1,8 @@
+package edu.lessons.day98.reflection;
+
+public class Actor {
+
+	public String Name;
+	public String city;
+
+}

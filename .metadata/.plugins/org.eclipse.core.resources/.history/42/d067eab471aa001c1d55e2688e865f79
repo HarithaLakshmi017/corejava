@@ -1,0 +1,13 @@
+package com.chainsys.intro;
+
+public class Second {
+
+	public static void main(String[] args) {
+	
+  int x = 100;
+  int y = 200;
+  int z=x+y;
+  System.out.println("result="+z);
+	}
+
+}

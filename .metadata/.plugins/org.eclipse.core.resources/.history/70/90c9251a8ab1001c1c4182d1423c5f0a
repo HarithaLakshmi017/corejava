@@ -1,0 +1,36 @@
+package com.chainsys.arrays;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class DemoA {
+	public static void CreatingSingleDimensionInArrays()
+	{
+		int firstintArray[]=new int[10];
+		
+ int lengthofnumbers=firstintArray.length;
+ System.out.println(lengthofnumbers);
+ for(int x:firstintArray)
+	{
+	 System.out.println(x+",");
+	}
+		
+		
+		}
+		
+	//public static void creatingDimensionArray()
+	//public static void creatingintArrays()
+	public static void creatingAnotherArray()
+	{
+		int days[];
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("Enter Size for days");
+		int size=scanner.nextInt();
+		scanner.close();
+		days=new int[size];
+		int lengthofday=days.length;
+		System.out.println("no of days" +lengthofday);
+		
+	}
+
+}

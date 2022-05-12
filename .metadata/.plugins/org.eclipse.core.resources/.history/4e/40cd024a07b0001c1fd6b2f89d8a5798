@@ -1,0 +1,12 @@
+package Testsamplecode;
+
+//public class Sample {
+	public class Sample {
+		public static void main(String[] args) {
+		String str = "FIzzBuzz";
+		boolean result = str.matches("[a-zA-Z]+");
+		System.out.println("input name : " +str);
+		System.out.println("Does input name contains alphabets only? : " + result);
+		}
+		}
+

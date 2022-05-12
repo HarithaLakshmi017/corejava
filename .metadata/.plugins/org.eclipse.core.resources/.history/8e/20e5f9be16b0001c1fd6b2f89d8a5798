@@ -1,0 +1,12 @@
+package Testsamplecode;
+
+public class BankDetails {
+
+	public static void main(String[] args) {
+		int emp_id,phn_num;
+		String cust_name;
+		
+
+	}
+
+}

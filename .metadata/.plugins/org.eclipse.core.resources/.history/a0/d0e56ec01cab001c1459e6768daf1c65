@@ -1,0 +1,19 @@
+package com.chainsys.introdction;
+
+public class fifth {
+
+	public static void main(String[] args) {
+		int x=1;
+		System.out.println(x);
+		System.out.println(x++);
+
+	}
+	public static void printNumberOnetoHundred() {
+		int count =0;
+		for(count =0;count<=100;count++)
+		{
+			System.out.print(count + "");
+		}
+		}
+	}
+
